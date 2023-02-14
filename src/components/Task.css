@@ -1,0 +1,90 @@
+.task {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task li {
+    justify-content: center;
+    margin-right: 10px;
+    transition: all 0.2s;
+    list-style: none;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+
+.task li .edit {
+    margin: 10px;
+    color: rgb(137, 188, 255);
+}
+
+.task li .delete {
+    margin: 10px;
+    color: rgb(250, 127, 127);
+}
+
+.task li .check {
+    margin: 10px;
+    color: rgb(41, 41, 41);
+}
+
+.task li:hover .edit,
+.task li:hover .delete,
+.task li:hover .check {
+    transition: all 0.2s ease-in-out;
+}
+
+.task li:hover .edit,
+.task li:hover .delete,
+.task li:hover .check {
+    cursor: pointer;
+}
+
+.task li .edit:hover {
+    color: rgb(2, 192, 255);
+}
+
+.task li .delete:hover {
+    color: red;
+}
+
+.task li .check:hover {
+    color: rgb(13, 197, 0);
+}
+
+.task li span {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgba(240, 248, 255, 0.8);
+    font-family: sans-serif;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    height: 200px;
+    max-height: 500px;
+    border: solid 2px;
+    max-width: 500px;
+    flex-direction: column;
+    box-shadow: 0 0 13px black;
+    cursor: pointer;
+    border: none;
+}
+
+.card .content {
+    flex: 1;
+    background-color: transparent;
+    font-weight: 500;
+    padding: 20px;
+    overflow: auto;
+}

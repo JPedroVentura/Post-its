@@ -1,0 +1,53 @@
+.form {
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.form h1 {
+    font-weight: bold;
+}
+
+.form input[type="text"] {
+    height: 40px;
+    padding: 0 20px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    min-width: 80%;
+    font-weight: bold;
+    box-shadow: 2px 3px 16px #222;
+    outline: none;
+}
+
+.form button[type="submit"] {
+    border: none;
+    height: 40px;
+    margin-right: 10px;
+    width: 40px;
+    background: rgb(99, 99, 99);
+    color: aliceblue;
+    box-shadow: 2px 3px 16px #222;
+}
+
+.form button[type="submit"]:active {
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+}
+
+.task-title {
+    margin-top: 500px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.color {
+    border-radius: 5px;
+    border: none;
+}
