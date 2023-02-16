@@ -4,7 +4,7 @@ Quem nao gosta de post-its? 🤔
 
 Para fazer funcionar basta utilizar o seguinte comando:
 
-# npm start 
+# npm i && npm start 
 
 Voilà!!!
 
