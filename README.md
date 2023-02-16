@@ -8,4 +8,5 @@ Para fazer funcionar basta utilizar o seguinte comando:
 
 Voilà!!!
 
-![Post-ITS - Google Chrome 2023-02-09 07-39-51](https://user-images.githubusercontent.com/86115368/217791977-461972eb-4cdf-4ee6-bc74-31a99ec9cf3b.gif)
+
+![Post-ITS - Google Chrome 2023-02-16 08-21-11](https://user-images.githubusercontent.com/86115368/219352014-298c3f82-3a5d-4a19-a8bf-4d910682d685.gif)
